@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="35543" started-at="2020-10-01T12:31:06Z" finished-at="2020-10-01T12:31:42Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="35543" started-at="2020-10-01T12:31:06Z" finished-at="2020-10-01T12:31:42Z">
+      <class name="store.ValidateTitle">
+        <test-method status="PASS" signature="validating()[pri:0, instance:store.ValidateTitle@306cf3ea]" name="validating" duration-ms="20" started-at="2020-10-01T18:01:41Z" finished-at="2020-10-01T18:01:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validating -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:store.ValidateTitle@306cf3ea]" name="teardown" is-config="true" duration-ms="0" started-at="2020-10-01T18:01:41Z" finished-at="2020-10-01T18:01:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validating status=SUCCESS method=ValidateTitle.validating()[pri:0, instance:store.ValidateTitle@306cf3ea] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- store.ValidateTitle -->
+      <class name="store.HomePage">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:store.HomePage@5fa07e12]" name="initialize" is-config="true" duration-ms="11364" started-at="2020-10-01T18:01:06Z" finished-at="2020-10-01T18:01:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:store.ValidateTitle@306cf3ea]" name="initialize" is-config="true" duration-ms="11409" started-at="2020-10-01T18:01:17Z" finished-at="2020-10-01T18:01:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="Login()[pri:0, instance:store.HomePage@5fa07e12]" name="Login" duration-ms="12102" started-at="2020-10-01T18:01:29Z" finished-at="2020-10-01T18:01:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:store.HomePage@5fa07e12]" name="teardown" is-config="true" duration-ms="2" started-at="2020-10-01T18:01:41Z" finished-at="2020-10-01T18:01:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Login status=SUCCESS method=HomePage.Login()[pri:0, instance:store.HomePage@5fa07e12] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:store.HomePage@5fa07e12]" name="teardown" is-config="true" duration-ms="91" started-at="2020-10-01T18:01:41Z" finished-at="2020-10-01T18:01:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:store.ValidateTitle@306cf3ea]" name="teardown" is-config="true" duration-ms="528" started-at="2020-10-01T18:01:41Z" finished-at="2020-10-01T18:01:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- store.HomePage -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
